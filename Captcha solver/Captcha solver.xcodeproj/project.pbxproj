@@ -1,0 +1,1021 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB30A0C5275259A400B6CB93 /* impartus.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C4275259A400B6CB93 /* impartus.js */; };
+		DB30A0C6275259A400B6CB93 /* impartus.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C4275259A400B6CB93 /* impartus.js */; };
+		DB30A0C7275259A400B6CB93 /* impartus.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C4275259A400B6CB93 /* impartus.js */; };
+		DB30A0C8275259A400B6CB93 /* impartus.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C4275259A400B6CB93 /* impartus.js */; };
+		DB30A0CA27525E6300B6CB93 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C927525E6300B6CB93 /* styles.css */; };
+		DB30A0CB27525E6300B6CB93 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C927525E6300B6CB93 /* styles.css */; };
+		DB30A0CC27525E6300B6CB93 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C927525E6300B6CB93 /* styles.css */; };
+		DB30A0CD27525E6300B6CB93 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0C927525E6300B6CB93 /* styles.css */; };
+		DB30A0D02752AEB900B6CB93 /* plugin.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CE2752AEB900B6CB93 /* plugin.js */; };
+		DB30A0D12752AEB900B6CB93 /* plugin.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CE2752AEB900B6CB93 /* plugin.js */; };
+		DB30A0D22752AEB900B6CB93 /* plugin.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CE2752AEB900B6CB93 /* plugin.js */; };
+		DB30A0D32752AEB900B6CB93 /* plugin.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CE2752AEB900B6CB93 /* plugin.js */; };
+		DB30A0D42752AEB900B6CB93 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CF2752AEB900B6CB93 /* jquery.min.js */; };
+		DB30A0D52752AEB900B6CB93 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CF2752AEB900B6CB93 /* jquery.min.js */; };
+		DB30A0D62752AEB900B6CB93 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CF2752AEB900B6CB93 /* jquery.min.js */; };
+		DB30A0D72752AEB900B6CB93 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = DB30A0CF2752AEB900B6CB93 /* jquery.min.js */; };
+		DBE757B02752497C0084025B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE757AF2752497C0084025B /* AppDelegate.swift */; };
+		DBE757B22752497C0084025B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE757B12752497C0084025B /* SceneDelegate.swift */; };
+		DBE757B52752497C0084025B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE757B32752497C0084025B /* LaunchScreen.storyboard */; };
+		DBE757B82752497C0084025B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE757B62752497C0084025B /* Main.storyboard */; };
+		DBE757C12752497C0084025B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE757C02752497C0084025B /* AppDelegate.swift */; };
+		DBE757C42752497C0084025B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBE757C22752497C0084025B /* Main.storyboard */; };
+		DBE757CC2752497C0084025B /* Captcha solver Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBE757CB2752497C0084025B /* Captcha solver Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBE757D62752497C0084025B /* Captcha solver Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DBE757D52752497C0084025B /* Captcha solver Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DBE757DC2752497C0084025B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DBE7579F2752497B0084025B /* Main.html */; };
+		DBE757DD2752497C0084025B /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DBE7579F2752497B0084025B /* Main.html */; };
+		DBE757DE2752497C0084025B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A12752497B0084025B /* Icon.png */; };
+		DBE757DF2752497C0084025B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A12752497B0084025B /* Icon.png */; };
+		DBE757E02752497C0084025B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A22752497B0084025B /* Style.css */; };
+		DBE757E12752497C0084025B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A22752497B0084025B /* Style.css */; };
+		DBE757E22752497C0084025B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A32752497B0084025B /* Script.js */; };
+		DBE757E32752497C0084025B /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A32752497B0084025B /* Script.js */; };
+		DBE757E42752497C0084025B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE757A42752497B0084025B /* ViewController.swift */; };
+		DBE757E52752497C0084025B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE757A42752497B0084025B /* ViewController.swift */; };
+		DBE757E62752497C0084025B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A52752497C0084025B /* Assets.xcassets */; };
+		DBE757E72752497C0084025B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBE757A52752497C0084025B /* Assets.xcassets */; };
+		DBE757E82752497C0084025B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE757A72752497C0084025B /* SafariWebExtensionHandler.swift */; };
+		DBE757E92752497C0084025B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE757A72752497C0084025B /* SafariWebExtensionHandler.swift */; };
+		DBE758032752497C0084025B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FB2752497C0084025B /* popup.js */; };
+		DBE758042752497C0084025B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FC2752497C0084025B /* background.js */; };
+		DBE758052752497C0084025B /* images in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FD2752497C0084025B /* images */; };
+		DBE758062752497C0084025B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FE2752497C0084025B /* popup.html */; };
+		DBE758072752497C0084025B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FF2752497C0084025B /* manifest.json */; };
+		DBE758082752497C0084025B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DBE758002752497C0084025B /* popup.css */; };
+		DBE758092752497C0084025B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DBE758012752497C0084025B /* _locales */; };
+		DBE7580A2752497C0084025B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE758022752497C0084025B /* content.js */; };
+		DBE7580B2752497C0084025B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FB2752497C0084025B /* popup.js */; };
+		DBE7580C2752497C0084025B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FC2752497C0084025B /* background.js */; };
+		DBE7580D2752497C0084025B /* images in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FD2752497C0084025B /* images */; };
+		DBE7580E2752497C0084025B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FE2752497C0084025B /* popup.html */; };
+		DBE7580F2752497C0084025B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DBE757FF2752497C0084025B /* manifest.json */; };
+		DBE758102752497C0084025B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = DBE758002752497C0084025B /* popup.css */; };
+		DBE758112752497C0084025B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DBE758012752497C0084025B /* _locales */; };
+		DBE758122752497C0084025B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE758022752497C0084025B /* content.js */; };
+		DBEF8C66275253F900843867 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE758022752497C0084025B /* content.js */; };
+		DBEF8C67275253FA00843867 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DBE758022752497C0084025B /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBE757CD2752497C0084025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE757992752497B0084025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE757CA2752497C0084025B;
+			remoteInfo = "Captcha solver Extension (iOS)";
+		};
+		DBE757D72752497C0084025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBE757992752497B0084025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBE757D42752497C0084025B;
+			remoteInfo = "Captcha solver Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBE757EF2752497C0084025B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBE757CC2752497C0084025B /* Captcha solver Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757F62752497C0084025B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DBE757D62752497C0084025B /* Captcha solver Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB30A0C4275259A400B6CB93 /* impartus.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = impartus.js; path = Resources/impartus.js; sourceTree = "<group>"; };
+		DB30A0C927525E6300B6CB93 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = styles.css; path = Resources/styles.css; sourceTree = "<group>"; };
+		DB30A0CE2752AEB900B6CB93 /* plugin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = plugin.js; path = Resources/plugin.js; sourceTree = "<group>"; };
+		DB30A0CF2752AEB900B6CB93 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = jquery.min.js; path = Resources/jquery.min.js; sourceTree = "<group>"; };
+		DBE757A02752497B0084025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DBE757A12752497B0084025B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DBE757A22752497B0084025B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DBE757A32752497B0084025B /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DBE757A42752497B0084025B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBE757A52752497C0084025B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBE757A72752497C0084025B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DBE757AC2752497C0084025B /* Captcha solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Captcha solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE757AF2752497C0084025B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBE757B12752497C0084025B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBE757B42752497C0084025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBE757B72752497C0084025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBE757B92752497C0084025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE757BE2752497C0084025B /* Captcha solver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Captcha solver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE757C02752497C0084025B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBE757C32752497C0084025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBE757C52752497C0084025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE757C62752497C0084025B /* Captcha solver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Captcha solver.entitlements"; sourceTree = "<group>"; };
+		DBE757CB2752497C0084025B /* Captcha solver Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Captcha solver Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE757D02752497C0084025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE757D52752497C0084025B /* Captcha solver Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Captcha solver Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE757DA2752497C0084025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBE757DB2752497C0084025B /* Captcha solver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Captcha solver.entitlements"; sourceTree = "<group>"; };
+		DBE757FB2752497C0084025B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		DBE757FC2752497C0084025B /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		DBE757FD2752497C0084025B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		DBE757FE2752497C0084025B /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		DBE757FF2752497C0084025B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		DBE758002752497C0084025B /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = Resources/popup.css; sourceTree = "<group>"; };
+		DBE758012752497C0084025B /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		DBE758022752497C0084025B /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBE757A92752497C0084025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757BB2752497C0084025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757C82752497C0084025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757D22752497C0084025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBE757982752497B0084025B = {
+			isa = PBXGroup;
+			children = (
+				DBE7579D2752497B0084025B /* Shared (App) */,
+				DBE757A62752497C0084025B /* Shared (Extension) */,
+				DBE757AE2752497C0084025B /* iOS (App) */,
+				DBE757BF2752497C0084025B /* macOS (App) */,
+				DBE757CF2752497C0084025B /* iOS (Extension) */,
+				DBE757D92752497C0084025B /* macOS (Extension) */,
+				DBE757AD2752497C0084025B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBE7579D2752497B0084025B /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DBE757A42752497B0084025B /* ViewController.swift */,
+				DBE757A52752497C0084025B /* Assets.xcassets */,
+				DBE7579E2752497B0084025B /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		DBE7579E2752497B0084025B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBE7579F2752497B0084025B /* Main.html */,
+				DBE757A12752497B0084025B /* Icon.png */,
+				DBE757A22752497B0084025B /* Style.css */,
+				DBE757A32752497B0084025B /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DBE757A62752497C0084025B /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DBE757FA2752497C0084025B /* Resources */,
+				DBE757A72752497C0084025B /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		DBE757AD2752497C0084025B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBE757AC2752497C0084025B /* Captcha solver.app */,
+				DBE757BE2752497C0084025B /* Captcha solver.app */,
+				DBE757CB2752497C0084025B /* Captcha solver Extension.appex */,
+				DBE757D52752497C0084025B /* Captcha solver Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBE757AE2752497C0084025B /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DBE757AF2752497C0084025B /* AppDelegate.swift */,
+				DBE757B12752497C0084025B /* SceneDelegate.swift */,
+				DBE757B32752497C0084025B /* LaunchScreen.storyboard */,
+				DBE757B62752497C0084025B /* Main.storyboard */,
+				DBE757B92752497C0084025B /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		DBE757BF2752497C0084025B /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DBE757C02752497C0084025B /* AppDelegate.swift */,
+				DBE757C22752497C0084025B /* Main.storyboard */,
+				DBE757C52752497C0084025B /* Info.plist */,
+				DBE757C62752497C0084025B /* Captcha solver.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		DBE757CF2752497C0084025B /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DBE757D02752497C0084025B /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DBE757D92752497C0084025B /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DBE757DA2752497C0084025B /* Info.plist */,
+				DBE757DB2752497C0084025B /* Captcha solver.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DBE757FA2752497C0084025B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB30A0CF2752AEB900B6CB93 /* jquery.min.js */,
+				DB30A0CE2752AEB900B6CB93 /* plugin.js */,
+				DB30A0C927525E6300B6CB93 /* styles.css */,
+				DB30A0C4275259A400B6CB93 /* impartus.js */,
+				DBE757FB2752497C0084025B /* popup.js */,
+				DBE757FC2752497C0084025B /* background.js */,
+				DBE757FD2752497C0084025B /* images */,
+				DBE757FE2752497C0084025B /* popup.html */,
+				DBE757FF2752497C0084025B /* manifest.json */,
+				DBE758002752497C0084025B /* popup.css */,
+				DBE758012752497C0084025B /* _locales */,
+				DBE758022752497C0084025B /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBE757AB2752497C0084025B /* Captcha solver (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE757F02752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver (iOS)" */;
+			buildPhases = (
+				DBE757A82752497C0084025B /* Sources */,
+				DBE757A92752497C0084025B /* Frameworks */,
+				DBE757AA2752497C0084025B /* Resources */,
+				DBE757EF2752497C0084025B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBE757CE2752497C0084025B /* PBXTargetDependency */,
+			);
+			name = "Captcha solver (iOS)";
+			productName = "Captcha solver (iOS)";
+			productReference = DBE757AC2752497C0084025B /* Captcha solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBE757BD2752497C0084025B /* Captcha solver (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE757F72752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver (macOS)" */;
+			buildPhases = (
+				DBE757BA2752497C0084025B /* Sources */,
+				DBE757BB2752497C0084025B /* Frameworks */,
+				DBE757BC2752497C0084025B /* Resources */,
+				DBE757F62752497C0084025B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBE757D82752497C0084025B /* PBXTargetDependency */,
+			);
+			name = "Captcha solver (macOS)";
+			productName = "Captcha solver (macOS)";
+			productReference = DBE757BE2752497C0084025B /* Captcha solver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBE757CA2752497C0084025B /* Captcha solver Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE757EC2752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver Extension (iOS)" */;
+			buildPhases = (
+				DBE757C72752497C0084025B /* Sources */,
+				DBE757C82752497C0084025B /* Frameworks */,
+				DBE757C92752497C0084025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Captcha solver Extension (iOS)";
+			productName = "Captcha solver Extension (iOS)";
+			productReference = DBE757CB2752497C0084025B /* Captcha solver Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DBE757D42752497C0084025B /* Captcha solver Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBE757F32752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver Extension (macOS)" */;
+			buildPhases = (
+				DBE757D12752497C0084025B /* Sources */,
+				DBE757D22752497C0084025B /* Frameworks */,
+				DBE757D32752497C0084025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Captcha solver Extension (macOS)";
+			productName = "Captcha solver Extension (macOS)";
+			productReference = DBE757D52752497C0084025B /* Captcha solver Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBE757992752497B0084025B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DBE757AB2752497C0084025B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DBE757BD2752497C0084025B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DBE757CA2752497C0084025B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DBE757D42752497C0084025B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = DBE7579C2752497B0084025B /* Build configuration list for PBXProject "Captcha solver" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBE757982752497B0084025B;
+			productRefGroup = DBE757AD2752497C0084025B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBE757AB2752497C0084025B /* Captcha solver (iOS) */,
+				DBE757BD2752497C0084025B /* Captcha solver (macOS) */,
+				DBE757CA2752497C0084025B /* Captcha solver Extension (iOS) */,
+				DBE757D42752497C0084025B /* Captcha solver Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBE757AA2752497C0084025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEF8C67275253FA00843867 /* content.js in Resources */,
+				DB30A0C5275259A400B6CB93 /* impartus.js in Resources */,
+				DBE757DE2752497C0084025B /* Icon.png in Resources */,
+				DB30A0CA27525E6300B6CB93 /* styles.css in Resources */,
+				DBE757B52752497C0084025B /* LaunchScreen.storyboard in Resources */,
+				DBE757DC2752497C0084025B /* Main.html in Resources */,
+				DB30A0D02752AEB900B6CB93 /* plugin.js in Resources */,
+				DBE757E22752497C0084025B /* Script.js in Resources */,
+				DBE757E62752497C0084025B /* Assets.xcassets in Resources */,
+				DBE757B82752497C0084025B /* Main.storyboard in Resources */,
+				DB30A0D42752AEB900B6CB93 /* jquery.min.js in Resources */,
+				DBE757E02752497C0084025B /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757BC2752497C0084025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE757DF2752497C0084025B /* Icon.png in Resources */,
+				DBE757E12752497C0084025B /* Style.css in Resources */,
+				DBE757C42752497C0084025B /* Main.storyboard in Resources */,
+				DB30A0C6275259A400B6CB93 /* impartus.js in Resources */,
+				DBE757E32752497C0084025B /* Script.js in Resources */,
+				DB30A0D12752AEB900B6CB93 /* plugin.js in Resources */,
+				DB30A0D52752AEB900B6CB93 /* jquery.min.js in Resources */,
+				DBE757E72752497C0084025B /* Assets.xcassets in Resources */,
+				DB30A0CB27525E6300B6CB93 /* styles.css in Resources */,
+				DBEF8C66275253F900843867 /* content.js in Resources */,
+				DBE757DD2752497C0084025B /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757C92752497C0084025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE758122752497C0084025B /* content.js in Resources */,
+				DB30A0C7275259A400B6CB93 /* impartus.js in Resources */,
+				DBE7580D2752497C0084025B /* images in Resources */,
+				DB30A0CC27525E6300B6CB93 /* styles.css in Resources */,
+				DBE7580E2752497C0084025B /* popup.html in Resources */,
+				DBE758102752497C0084025B /* popup.css in Resources */,
+				DB30A0D22752AEB900B6CB93 /* plugin.js in Resources */,
+				DBE7580F2752497C0084025B /* manifest.json in Resources */,
+				DBE7580C2752497C0084025B /* background.js in Resources */,
+				DBE758112752497C0084025B /* _locales in Resources */,
+				DB30A0D62752AEB900B6CB93 /* jquery.min.js in Resources */,
+				DBE7580B2752497C0084025B /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757D32752497C0084025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE7580A2752497C0084025B /* content.js in Resources */,
+				DB30A0C8275259A400B6CB93 /* impartus.js in Resources */,
+				DBE758052752497C0084025B /* images in Resources */,
+				DB30A0CD27525E6300B6CB93 /* styles.css in Resources */,
+				DBE758062752497C0084025B /* popup.html in Resources */,
+				DBE758082752497C0084025B /* popup.css in Resources */,
+				DB30A0D32752AEB900B6CB93 /* plugin.js in Resources */,
+				DBE758072752497C0084025B /* manifest.json in Resources */,
+				DBE758042752497C0084025B /* background.js in Resources */,
+				DBE758092752497C0084025B /* _locales in Resources */,
+				DB30A0D72752AEB900B6CB93 /* jquery.min.js in Resources */,
+				DBE758032752497C0084025B /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBE757A82752497C0084025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE757E42752497C0084025B /* ViewController.swift in Sources */,
+				DBE757B02752497C0084025B /* AppDelegate.swift in Sources */,
+				DBE757B22752497C0084025B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757BA2752497C0084025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE757E52752497C0084025B /* ViewController.swift in Sources */,
+				DBE757C12752497C0084025B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757C72752497C0084025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE757E82752497C0084025B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE757D12752497C0084025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE757E92752497C0084025B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBE757CE2752497C0084025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE757CA2752497C0084025B /* Captcha solver Extension (iOS) */;
+			targetProxy = DBE757CD2752497C0084025B /* PBXContainerItemProxy */;
+		};
+		DBE757D82752497C0084025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBE757D42752497C0084025B /* Captcha solver Extension (macOS) */;
+			targetProxy = DBE757D72752497C0084025B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBE7579F2752497B0084025B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE757A02752497B0084025B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DBE757B32752497C0084025B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE757B42752497C0084025B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DBE757B62752497C0084025B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE757B72752497C0084025B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBE757C22752497C0084025B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBE757C32752497C0084025B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBE757EA2752497C0084025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBE757EB2752497C0084025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DBE757ED2752497C0084025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver.Extension";
+				PRODUCT_NAME = "Captcha solver Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE757EE2752497C0084025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver.Extension";
+				PRODUCT_NAME = "Captcha solver Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE757F12752497C0084025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver";
+				PRODUCT_NAME = "Captcha solver";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBE757F22752497C0084025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver";
+				PRODUCT_NAME = "Captcha solver";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBE757F42752497C0084025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Captcha solver.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver.Extension";
+				PRODUCT_NAME = "Captcha solver Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBE757F52752497C0084025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Captcha solver.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver.Extension";
+				PRODUCT_NAME = "Captcha solver Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBE757F82752497C0084025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Captcha solver.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver";
+				PRODUCT_NAME = "Captcha solver";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBE757F92752497C0084025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Captcha solver.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GJNJWHD6D2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Captcha solver";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "iaditm.Captcha-solver";
+				PRODUCT_NAME = "Captcha solver";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBE7579C2752497B0084025B /* Build configuration list for PBXProject "Captcha solver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE757EA2752497C0084025B /* Debug */,
+				DBE757EB2752497C0084025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE757EC2752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE757ED2752497C0084025B /* Debug */,
+				DBE757EE2752497C0084025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE757F02752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE757F12752497C0084025B /* Debug */,
+				DBE757F22752497C0084025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE757F32752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE757F42752497C0084025B /* Debug */,
+				DBE757F52752497C0084025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBE757F72752497C0084025B /* Build configuration list for PBXNativeTarget "Captcha solver (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBE757F82752497C0084025B /* Debug */,
+				DBE757F92752497C0084025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBE757992752497B0084025B /* Project object */;
+}

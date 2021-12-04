@@ -1,0 +1,28 @@
+{
+    "name": "Moodle Captcha Solver",
+    "version": "1.0",
+    "description": "Solves Moodle Captchas",
+    "content_scripts": [ {
+        "matches": ["https://moodle.iitd.ac.in/login/index.php"],
+        "run_at": "document_idle",
+        "js": ["content.js"]
+    },
+        {
+            "css": ["styles.css"],
+            "matches": ["https://a.impartus.com/*"]
+        },
+        {
+            "matches": ["https://a.impartus.com/vc/*"],
+            "run_at": "document_end",
+            "js": ["jquery.min.js", "plugin.js"]
+        }
+    ],
+    "icons": {
+        "36": "icons/icon36.png",
+        "48": "images/icon48.png",
+        "96": "images/icon96.png",
+        "192": "images/icon192.png",
+        "512": "images/icon512.png"
+    },
+    "manifest_version": 2
+}
